@@ -1,0 +1,87 @@
+<style type="text/css">
+@import url('//fonts.googleapis.com/css?family=Oswald');
+@font-face {
+  font-family: 'Oswald', sans-serif;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+}
+p {  font-family: 'Oswald', sans-serif;
+  border-radius: 8px;
+  background: #7da7d9;
+  color: #fff;
+  padding: 20px;}
+ .r  {
+  font-family: 'Oswald', sans-serif;
+  border-radius: 8px;
+  background: #7da7d9;
+  color: #fff;
+  padding: 20px;
+ }
+ .rabota {border: 6px solid #ffffff;
+ }
+header {
+  display: block;
+  height: 200px;
+  background: #C0C0C0;
+  font-family: serif;
+  color: #191970;
+ }
+ .hd {
+     font-size: 60px;
+     font-style: bold;
+     padding-left: 220px;
+     padding-top: 20px;
+ }
+ .vacation {
+        padding-left: 220px;
+        font-style: italic;
+        background: #fff;
+        color: #B22222;
+
+
+ }
+ .nav {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+  .nav a{
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #5757a0;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lavender;
+    }
+
+  .great {
+    font-family: 'Times New', serif;
+    color: #87CEEB;
+    font-size: 22px;
+  }
+
+  .footer {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 60;
+    font-family: 'Courier New', monospace;
+  }
+  .cont {
+    color: #8B0000;
+    font-size: 22px;
+  }
+  .cert {
+    border: 15px solid #ffffff;
+  }
+
+.certBlock {
+  margin: 0;
+  padding-left: 30;
+  padding-top: 15;
+}
+
+
+</style>

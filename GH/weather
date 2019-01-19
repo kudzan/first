@@ -1,0 +1,12 @@
+import pyowm
+
+city = input('In what city do you want to know weather?:')
+
+owm = pyowm.OWM('78ecae069c241d843dc4dc712a5d778a')
+observation = owm.weather_at_place('London,GB')
+w = observation.get_weather()
+temperature = w.get_temperature('celsius')['temp']
+
+
+print ("В городе"+ city + "сейчас температура:" str(temperature) + "C")
+print ("Also, in you city" + w.get_detailed_status())

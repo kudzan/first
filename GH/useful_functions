@@ -1,0 +1,20 @@
+# Функции для работы со строками и числами
+
+fruits = ['Лимон', 'Яблоки', 'Ананас', 'Киви', 'Клубника']
+members = 'James, Johny, Jessie, Jack, John'
+
+#join, replace, startswith, endswith, lower, upper, split, min, max, abs, sum
+
+print('_'.join(fruits) )
+
+print('Привет, Петр'.replace('Петр', 'Александр'))
+
+name - input('Ваше имя: ')
+if ( name.lower().startswith('а') or name.lower().startswith('a') ): #Учет и регистра и раскладки
+    print ('Добро пожаловать!')
+else:
+    print ('Ну привет')
+
+print( members.split(',') )
+
+print( abs(5, 10, 1054, 2854, -328 )) #Абсолютное значение
